@@ -1,0 +1,8 @@
+﻿  main.cpp
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl RBTree<int>::RBTree<int>(void)" (??0?$RBTree@H@@QEAA@XZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl RBTree<int>::~RBTree<int>(void)" (??1?$RBTree@H@@QEAA@XZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl RBTree<int>::InOrder(void)" (?InOrder@?$RBTree@H@@QEAAXXZ)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: bool __cdecl RBTree<int>::Insert(int const &)" (?Insert@?$RBTree@H@@QEAA_NAEBH@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl RBTree<int>::Remove(int)" (?Remove@?$RBTree@H@@QEAAXH@Z)，函数 main 中引用了该符号
+main.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl RBTree<int>::InOrderPrint(void)" (?InOrderPrint@?$RBTree@H@@QEAAXXZ)，函数 main 中引用了该符号
+E:\C++学习\RB_Tree\x64\Debug\RB_Tree.exe : fatal error LNK1120: 6 个无法解析的外部命令
